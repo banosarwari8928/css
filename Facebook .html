@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>facebook!</title>
+  <!-- <link rel="stylesheet" href="facebook.css">-->
+  <style>body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  margin: 0 auto;
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+form{
+  box-shadow: -3px -3px 20px rgba(0,0,0,0.2);
+  display: flex;
+  height:fit-content;
+  flex-direction: column;
+  gap:12px;  
+  border-radius:6px;
+  width:100%;
+}
+form input{
+  width:90%;
+  padding:12px;
+  height:50px ;
+  border-radius: 6px;
+  margin:12px auto;
+}
+form input ::placeholder{
+  color:grey;}
+button.login{ width:90%;
+  height:50px ;
+  border-radius: 6px;
+  margin:12px auto;
+  padding:10px;
+  background-color: #1877f2;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+a{
+  text-align: center;
+  color:#1877f2;
+  text-decoration: none;
+  
+}
+.sign-up{
+  width:70%;
+  height:50px ;
+  border-radius: 6px;
+  margin:12px auto;
+  background-color: #36a420;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  padding:12px 0;
+}
+</style>
+</head>
+<body>
+  <form>
+    <input type="Text" placeholder="Email or phone number">
+    <input type="text" placeholder="Password">
+    <button class="login">login</button>
+    <a href="">forgot password</a>
+    <button class="sign-up">Creat an acount</button>
+  </form>
+</body>
+</html>
